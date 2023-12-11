@@ -1,0 +1,89 @@
+/* Establecer el color de fondo a celeste */
+body {
+    background-color: #89cff0; /* Color celeste */
+  }
+  
+  /* Estilo para los productos */
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 200px;
+    background-color: white; /* Fondo blanco para los productos */
+  }
+  
+  /* Estilo para el carrito */
+  .cart {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    background-color: white; /* Fondo blanco para el carrito */
+  }
+  
+  /* Estilo para los botones */
+  .button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el botón de comprar */
+  .buy-button {
+    background-color: #2ecc71; /* Color verde */
+    color: white;
+  }
+  
+  .buy-button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Estilo para el botón de eliminar del carrito */
+  .remove-button {
+    background-color: #e74c3c; /* Color rojo */
+    color: white;
+  }
+  
+  .remove-button:hover {
+    background-color: #c0392b;
+  }
+
+  .logo {
+    text-align: center; /* Para centrar el logotipo */
+    margin-bottom: 20px; /* Espaciado opcional */
+  }
+  
+  .logo img {
+    width: 200px; /* Ancho deseado */
+    height: auto; /* Altura ajustada automáticamente */
+  }
+  
+  /* Otros estilos ... */
+
+/* Estilo para la cuadrícula de productos */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  width: calc(20% - 10px); /* 20% width with 10px margin */
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.row .product {
+  margin-right: 20px; /* Adjust the margin between products */
+}
+
+.row .product:last-child {
+  margin-right: 0; /* Remove margin for the last product in a row */
+}

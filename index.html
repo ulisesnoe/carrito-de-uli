@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Aquí incluye tu logotipo -->
+  <div class="logo">
+    <img src="imagenes/logotipo.png" alt="Logo de la tienda">
+  </div>
+
+  <!-- Productos en forma de cuadrícula -->
+  <div id="products-container" class="product-grid">
+    <!-- Productos aquí -->
+    <div class="product">
+      <img src="imagenes/product1.jpg" alt="Producto 1">
+      <p>Producto 1</p>
+      <p>Precio: $75</p>
+      <button class="button buy-button" onclick="addToCart(1)">Agregar al carrito</button>
+    </div>
+
+    <div class="product">
+      <img src="imagenes/product2.jpg" alt="Producto 2">
+      <p>Producto 2</p>
+      <p>Precio: $60</p>
+      <button class="button buy-button" onclick="addToCart(2)">Agregar al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="imagenes/product3.jpg" alt="Producto 3">
+        <p>Producto 3</p>
+        <p>Precio: $80</p>
+        <button class="button buy-button" onclick="addToCart(2)">Agregar al carrito</button>
+      </div>
+    
+    <div class="product">
+        <img src="imagenes/product4.jpg" alt="Producto 4">
+        <p>Producto 2</p>
+        <p>Precio: $10</p>
+        <button class="button buy-button" onclick="addToCart(2)">Agregar al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="imagenes/product5.jpg" alt="Producto 5">
+        <p>Producto 2</p>
+        <p>Precio: $7</p>
+        <button class="button buy-button" onclick="addToCart(2)">Agregar al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="imagenes/product6.jpg" alt="Producto 6">
+        <p>Producto 2</p>
+        <p>Precio: $20</p>
+        <button class="button buy-button" onclick="addToCart(2)">Agregar al carrito</button>
+    </div>
+
+    <div class="product">
+      <img src="imagenes/product7.jpg" alt="Producto 7">
+      <p>Producto 2</p>
+      <p>Precio: $20</p>
+      <button class="button buy-button" onclick="addToCart(2)">Agregar al carrito</button>
+  </div>
+    <!-- Agrega más productos con estructura similar -->
+  </div>
+
+  <h2>Carrito:</h2>
+  <div id="cart" class="cart">
+    <!-- Aquí se mostrará el contenido del carrito -->
+  </div>
+
+  <button class="button buy-button" onclick="buy()">Comprar</button>
+</div>
+
+<script src="JS/tienda.js"></script>
+</body>
+</html>
